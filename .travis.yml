@@ -1,2 +1,10 @@
 language: csharp
-solution: The Hills.sln
+solution: ./The Hills.sln
+dist: trusty
+email: false
+before_install:
+  - chmod +x build.sh
+sudo: required
+mono: none
+script:
+  - ./build.sh
