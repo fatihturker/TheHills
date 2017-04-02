@@ -6,5 +6,3 @@ before_install:
   - chmod +x build.sh
 sudo: required
 mono: none
-script:
-  - ./build.sh
